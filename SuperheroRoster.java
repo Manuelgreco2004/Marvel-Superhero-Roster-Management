@@ -5,10 +5,11 @@ public class SuperheroRoster {
         String[] abilities = {"Web-slinging", "Flying and high-tech armor", "Stealth and combat", "Heavy armor and heavy arsenal"};
         int[] powerLevels = {85, 90, 80, 100};
 
-        // 2. Print each hero's details using a loop
         System.out.println("");
         System.out.println("--- Marvel Superhero Roster Management ---");
         System.out.println("");
+        
+        // 2. Print each hero's details using a loop
         for (int i = 0; i < heroNames.length; i++) {
             System.out.println("Hero: " + heroNames[i] + " | Ability: " + abilities[i] + " | Power Level: " + powerLevels[i]);
         }
