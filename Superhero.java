@@ -1,4 +1,5 @@
 public class Superhero {
+    public static int[] team;
     // Declare attributes
     private String name;
     private String ability;
@@ -18,4 +19,8 @@ public class Superhero {
         System.out.println("Power Level: " + this.powerLevel);
         System.out.println("------------------------------------");
     }
+    
+    
+
+
 }

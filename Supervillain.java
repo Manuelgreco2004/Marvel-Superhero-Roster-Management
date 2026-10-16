@@ -1,4 +1,5 @@
 public class Supervillain {
+    public static int[] mob;
     // Declare attributes
     private String name;
     private String ability;
@@ -18,4 +19,6 @@ public class Supervillain {
         System.out.println("Power Level: " + this.powerLevel);
         System.out.println("------------------------------------");
     }
+
+
 }
