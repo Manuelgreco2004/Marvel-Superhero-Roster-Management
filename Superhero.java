@@ -13,8 +13,8 @@ public class Superhero {
 
     // Method: displayHero
     public void displayHero() {
-        System.out.println("Hero Name  : " + this.name);
-        System.out.println("Ability    : " + this.ability);
+        System.out.println("Hero Identity: " + this.name);
+        System.out.println("Abilities: " + this.ability);
         System.out.println("Power Level: " + this.powerLevel);
         System.out.println("------------------------------------");
     }
