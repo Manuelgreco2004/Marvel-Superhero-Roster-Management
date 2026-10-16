@@ -6,9 +6,9 @@ public class SuperheroRoster {
         int[] powerLevels = {150, 120, 80, 180};
 
 
-        System.out.println("");
+        System.out.println();
         System.out.println("--- Marvel Superhero Roster Management ---");
-        System.out.println("");
+        System.out.println();
 
         
         // 2. Print each hero's details using a loop
@@ -46,13 +46,13 @@ public class SuperheroRoster {
 
         // On my own. Want to test out Supervillain Class and arrays.
 
-        System.out.println("");
+        System.out.println();
         System.out.println("--- WARNING! ---");
         System.out.println("--- WARNING! ---");
         System.out.println("--- WARNING! ---");
-        System.out.println("");
+        System.out.println();
         System.out.println("--- SUPERVILLAINS APPROACHING! ANALYZING INDIVIDUALS: ---");
-        System.out.println("");
+        System.out.println();
 
         Supervillain[] mob = new Supervillain[4];
         mob[0] = new Supervillain("Crimson Dynamo", "Soviet armor, destructive arsenal", 200);
